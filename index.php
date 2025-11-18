@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-$host = "ferozdb.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // Replace RDS endpoint
+$host = "db-hp.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // Replace RDS endpoint
 $db_user = "admin";  // Replace DB master username
-$db_pass = "feroz123";  // Replace DB master passwd
+$db_pass = "Hari12345";  // Replace DB master passwd
 $db_name = "LoginDB";  //Replace Database Name
 
 $conn = new mysqli($host, $db_user, $db_pass, $db_name);
